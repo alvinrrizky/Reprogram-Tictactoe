@@ -1,0 +1,10 @@
+                               
+
+            ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+            บ                                                          บ
+	    บ 1.Pemain diberi simbol O dan Komputer X                  บ
+            บ 2.Pemain akan mengisi kotak dari 1-25                    บ
+            บ 3.Pemain akan menang apabila 4 se-simbol sejajar         บ
+            บ membentuk secara vertikal,horizontal ataupun diagonal.   บ
+	    บ                                                          บ
+            ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
