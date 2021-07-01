@@ -28,6 +28,8 @@
 #define STDHEADER     143
 #define STDBACKGROUND 159
 
+const int O = 0, X = 1, kosong = 3;
+
 // Modul untuk menampilkan pilihan menu utama
 void menu();
 // Modul untuk menampilkan instruksi permainan yang diambil dari file
