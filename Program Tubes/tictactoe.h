@@ -50,6 +50,12 @@ void gotoxy(int x, int y);
 void warnateks(int warna);
 // modul untuk menjalankan permainan
 void permainan();
+// modul untuk menampilkan board
+void tampilan_board();
+// modul untuk menampilkan board dalam bentuk matriks
+void infoMatriks(List L);
+// modul untuk membuat board
+void make_board(List *L1);
 
 #endif
 
