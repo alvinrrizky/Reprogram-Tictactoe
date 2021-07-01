@@ -4,21 +4,21 @@ void menu(){
 	int pilih_menu, i = 28;
 	judul();
 	warnateks(WHITE);
-	gotoxy(i,18); printf(" ษอออออออออออออออออออออออป\n");
-   	gotoxy(i,19);printf(" บ      MAIN MENU        บ\n");
-   	gotoxy(i,20);printf(" บ                       บ\n");
-   	gotoxy(i,21);printf(" บ   [1] PLAY NOW !      บ\n");
-   	gotoxy(i,22);printf(" บ   [2] INSTRUCTIONS    บ\n");
-   	gotoxy(i,23);printf(" บ   [3] THE CREATOR     บ\n");
-   	gotoxy(i,24);printf(" บ   [0] Exit            บ\n");
-   	gotoxy(i,25);printf(" บ                       บ\n");
-   	gotoxy(i,26);printf(" ศอออออออออออออออออออออออผ\n");
+	gotoxy(i,18); printf(" รรรรรรรรรรรรรรรรรรรรรรรรยป\n");
+   	gotoxy(i,19);printf(" ยบ      MAIN MENU        ยบ\n");
+   	gotoxy(i,20);printf(" ยบ                       ยบ\n");
+   	gotoxy(i,21);printf(" ยบ   [1] PLAY NOW !      ยบ\n");
+   	gotoxy(i,22);printf(" ยบ   [2] INSTRUCTIONS    ยบ\n");
+   	gotoxy(i,23);printf(" ยบ   [3] THE CREATOR     ยบ\n");
+   	gotoxy(i,24);printf(" ยบ   [0] Exit            ยบ\n");
+   	gotoxy(i,25);printf(" ยบ                       ยบ\n");
+   	gotoxy(i,26);printf(" รรรรรรรรรรรรรรรรรรรรรรรรยผ\n");
 	gotoxy(i,28);printf("    Choose :            \n");
    	gotoxy(41,28);scanf("%d",&pilih_menu);
    	switch(pilih_menu){
 			case 1:
 				system("CLS");
-//				permainan();
+				permainan();
 			break;
 			
 			case 2:
@@ -58,52 +58,52 @@ void warnateks(int warna){
 
 void judul(){ 
 	warnateks(LIGHT_BLUE);
-	gotoxy(8,1); printf("  ÛÛÛÛÛÛÛÛÛÛ  ÛÛ   ÛÛÛÛÛ             ÛÛÛÛÛÛÛÛÛÛ   ÛÛÛÛ    ÛÛÛÛÛ \n");
-	printf("              ÛÛ      ÛÛ  ÛÛ                     ÛÛ      ÛÛ  ÛÛ  ÛÛ     \n");
-	printf("              ÛÛ      ÛÛ  ÛÛ                     ÛÛ      ÛÛ  ÛÛ  ÛÛ     \n");
-	printf("              ÛÛ      ÛÛ  ÛÛ                     ÛÛ      ÛÛÛÛÛÛ  ÛÛ     \n");
-	printf("              ÛÛ      ÛÛ  ÛÛ                     ÛÛ      ÛÛ  ÛÛ  ÛÛ     \n");
-	printf("              ÛÛ      ÛÛ   ÛÛÛÛÛ                 ÛÛ      ÛÛ  ÛÛ   ÛÛÛÛÛ \n \n\n\n");
+	gotoxy(8,1); printf("  รรรรรรรรรร  รร   รรรรร             รรรรรรรรรร   รรรร    รรรรร \n");
+	printf("              รร      รร  รร                     รร      รร  รร  รร     \n");
+	printf("              รร      รร  รร                     รร      รร  รร  รร     \n");
+	printf("              รร      รร  รร                     รร      รรรรรร  รร     \n");
+	printf("              รร      รร  รร                     รร      รร  รร  รร     \n");
+	printf("              รร      รร   รรรรร                 รร      รร  รร   รรรรร \n \n\n\n");
 	
-	printf("      		           ÛÛÛÛÛÛÛÛÛÛ  ÛÛÛÛÛ   ÛÛÛÛÛ \n");
-	printf("	 	               ÛÛ     ÛÛ   ÛÛ  Û     \n");
-	printf("		               ÛÛ     ÛÛ   ÛÛ  ÛÛÛÛÛ \n");
-	printf("		               ÛÛ     ÛÛ   ÛÛ  Û \n");
-	printf("                               ÛÛ     ÛÛ   ÛÛ  Û     \n");
-	printf("		               ÛÛ      ÛÛÛÛÛ   ÛÛÛÛÛ \n");
+	printf("      		           รรรรรรรรรร  รรรรร   รรรรร \n");
+	printf("	 	               รร     รร   รร  ร     \n");
+	printf("		               รร     รร   รร  รรรรร \n");
+	printf("		               รร     รร   รร  ร \n");
+	printf("                               รร     รร   รร  ร     \n");
+	printf("		               รร      รรรรร   รรรรร \n");
 	
 	warnateks(LIGHT_GREEN);
-	gotoxy(9,18); printf("ÛÛ       ÛÛ \n");
-	gotoxy(9,19); printf("  ÛÛ   ÛÛ \n");
-	gotoxy(9,20); printf("    ÛÛÛ \n");
-	gotoxy(9,21); printf("    ÛÛÛ \n");
-	gotoxy(9,22); printf("  ÛÛ   ÛÛ \n");
-	gotoxy(9,23); printf("ÛÛ       ÛÛ \n");	
+	gotoxy(9,18); printf("รร       รร \n");
+	gotoxy(9,19); printf("  รร   รร \n");
+	gotoxy(9,20); printf("    รรร \n");
+	gotoxy(9,21); printf("    รรร \n");
+	gotoxy(9,22); printf("  รร   รร \n");
+	gotoxy(9,23); printf("รร       รร \n");	
 	warnateks(YELLOW);
-	gotoxy(61,18); printf("    ÛÛÛÛ  \n");
-	gotoxy(61,19); printf("  ÛÛ    ÛÛ \n");
-	gotoxy(61,20); printf("  ÛÛ    ÛÛ \n");
-	gotoxy(61,21); printf("  ÛÛ    ÛÛ \n");
-	gotoxy(61,22); printf("  ÛÛ    ÛÛ \n");
-	gotoxy(61,23); printf("    ÛÛÛÛ \n");	
+	gotoxy(61,18); printf("    รรรร  \n");
+	gotoxy(61,19); printf("  รร    รร \n");
+	gotoxy(61,20); printf("  รร    รร \n");
+	gotoxy(61,21); printf("  รร    รร \n");
+	gotoxy(61,22); printf("  รร    รร \n");
+	gotoxy(61,23); printf("    รรรร \n");	
 }
 
 void xo(){
 	warnateks(LIGHT_GREEN);
-	gotoxy(9,8); printf("ÛÛ       ÛÛ \n");
-	gotoxy(9,9); printf("  ÛÛ   ÛÛ \n");
-	gotoxy(9,10); printf("    ÛÛÛ \n");
-	gotoxy(9,11); printf("    ÛÛÛ \n");
-	gotoxy(9,12); printf("  ÛÛ   ÛÛ \n");
-	gotoxy(9,13); printf("ÛÛ       ÛÛ \n");	
+	gotoxy(9,8); printf("รร       รร \n");
+	gotoxy(9,9); printf("  รร   รร \n");
+	gotoxy(9,10); printf("    รรร \n");
+	gotoxy(9,11); printf("    รรร \n");
+	gotoxy(9,12); printf("  รร   รร \n");
+	gotoxy(9,13); printf("รร       รร \n");	
 	gotoxy(9,15);printf(" COMPUTER \n");
 	warnateks(YELLOW);
-	gotoxy(61,8); printf("    ÛÛÛÛ  \n");
-	gotoxy(61,9); printf("  ÛÛ    ÛÛ \n");
-	gotoxy(61,10); printf("  ÛÛ    ÛÛ \n");
-	gotoxy(61,11); printf("  ÛÛ    ÛÛ \n");
-	gotoxy(61,12); printf("  ÛÛ    ÛÛ \n");
-	gotoxy(61,13); printf("    ÛÛÛÛ \n");
+	gotoxy(61,8); printf("    รรรร  \n");
+	gotoxy(61,9); printf("  รร    รร \n");
+	gotoxy(61,10); printf("  รร    รร \n");
+	gotoxy(61,11); printf("  รร    รร \n");
+	gotoxy(61,12); printf("  รร    รร \n");
+	gotoxy(61,13); printf("    รรรร \n");
 	gotoxy(61,15);printf("    USER   \n");	
 }
 
@@ -117,11 +117,11 @@ void loading(){
 	int x = 28, y = 13, n;
 	warnateks(WHITE);
 	gotoxy(x,20); printf("       Please Wait");
-	gotoxy(x,21);  printf("ษออออออออออออออออออออออออป");
-	gotoxy(x,22);printf("บ                        บ");
-	gotoxy(x,23);printf("ศออออออออออออออออออออออออผ");
+	gotoxy(x,21);  printf("รรรรรรรรรรรรรรรรรรรรรรรรรยป");
+	gotoxy(x,22);printf("ยบ                        ยบ");
+	gotoxy(x,23);printf("รรรรรรรรรรรรรรรรรรรรรรรรรยผ");
 	for(n=29;n<=50;n++){
-		gotoxy(n,22);printf("Û");
+		gotoxy(n,22);printf("ร");
 		kecepatan(0.1);
 	};
 }
@@ -166,4 +166,100 @@ void instructions(){
 	gotoxy(22,14); printf("   Press Any Key To Return.....");getch();
 	system("CLS");
 	menu();
+}
+
+void permainan(){
+	int game_over = 0, giliran = O;
+	int skor_com = 0; 
+	int skor_user = 0;
+	while(game_over != 1) {
+		system("cls");
+		warnateks(WHITE);
+		gotoxy(32,5); printf("COMPUTER VS PLAYER");
+		warnateks(WHITE);
+   		gotoxy(12,17); printf(" %d \n",skor_com);
+   		gotoxy(66,17); printf(" %d \n",skor_user);
+		tampilan_board();
+		if(giliran == O){
+			warnateks(RED);
+			gotoxy(63,6); printf("GILIRAN");
+		}else{
+			warnateks(RED);
+			gotoxy(12,6); printf("GILIRAN");
+		}
+	}
+}
+
+void tampilan_board(){ 
+	List L1,L2,L,Lplus;
+	CreateList(&L1);
+	CreateList(&L2);
+	
+	xo();
+	make_board(&L1);
+	printf("\n");
+	infoMatriks(L1);
+
+}
+
+void make_board(List *L1)
+{
+	List L2;
+	int i,j,b,k,d=1;
+	infotype nilai;
+	address P1,P2,down;
+
+	for(i=1;i<=5;i++)
+	{
+		CreateList(&L2);
+		for(j=1;j<=5;j++)
+		{
+			nilai=d;
+			d++;
+			
+			P1=Alokasi(nilai);
+
+			if (i==1)
+			{
+				InsertLast(&(*L1),P1);
+				P2=First(*L1);
+			}
+			else
+			{
+				InsertLast(&L2,P1);
+				baris(down)=P1;
+				down=Next(down);
+			}
+		}
+		if (i>1)
+		{	P2=baris(P2);	}
+		down=P2;
+	}
+}
+
+void infoMatriks(List L)
+{
+	address P1,P2;
+
+	if (First(L)==Nil)
+	{
+		printf ("matriks hasil kosong...\n\n");
+	}
+	else
+	{
+		P1=First(L);
+		while (P1!=Nil)
+		{
+			P2=P1;
+			printf("\t\t\t     ");
+			while (P2!=Nil)
+			{
+				warnateks(WHITE);
+				printf ("%2d   ",Info(P2));
+				P2=Next(P2);
+			}
+			printf ("\n\n");
+			P1=baris(P1);
+		}
+	}
 }
