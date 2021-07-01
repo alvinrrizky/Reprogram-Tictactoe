@@ -188,7 +188,22 @@ void permainan(){
 			gotoxy(12,6); printf("GILIRAN");
 		}
 	}
-}
+} int cek_menang{
+        if ( cek_menang(make_board, L1,L2,P1,P2 giliran^1) >= 4 ){
+            
+			system("cls");
+			warnateks(WHITE);
+			printf("\n\n\t\t\t\tG A M E  O V E R\n");
+			tampilan_board_akhir(&board[0]);			
+				if(giliran == O){
+					warnateks(LIGHT_GREEN);
+					printf("\n\n\t\t\t\t Komputer Menang!\n");
+				} else {
+					warnateks(YELLOW);
+					printf("\n\t\t\t\t    Anda Menang!\n\n");
+			}
+		}
+	}
 
 void tampilan_board(){ 
 	List L1,L2,L;
