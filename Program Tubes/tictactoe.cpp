@@ -191,7 +191,7 @@ void permainan(){
 }
 
 void tampilan_board(){ 
-	List L1,L2,L,Lplus;
+	List L1,L2,L;
 	CreateList(&L1);
 	CreateList(&L2);
 	
@@ -202,8 +202,7 @@ void tampilan_board(){
 
 }
 
-void make_board(List *L1)
-{
+void make_board(List *L1){
 	List L2;
 	int i,j,b,k,d=1;
 	infotype nilai;
@@ -237,8 +236,7 @@ void make_board(List *L1)
 	}
 }
 
-void infoMatriks(List L)
-{
+void infoMatriks(List L){
 	address P1,P2;
 
 	if (First(L)==Nil)
